@@ -308,7 +308,7 @@ section{
     width: 100%;
     max-width: 400px;
     height: auto;
-    margin-top: -100px;
+    margin-top: -50px;
     border-radius: 100%;
 }
 
@@ -542,7 +542,7 @@ section{
 }
 
 .skill-bar .bar .html{
-    width: 90%;
+    width: 98%;
     animation: html 2s ;
 }
 @keyframes html{
@@ -550,12 +550,12 @@ section{
         width: 0%;
     }
     100%{
-        width: 90%;
+        width: 98%;
     }
 }
 
 .skill-bar .bar .css{
-    width: 85%;
+    width: 91%;
     animation: css 3s ;
 }
 @keyframes css{
@@ -563,11 +563,11 @@ section{
         width: 0%;
     }
     100%{
-        width: 85%;
+        width: 91%;
     }
 }
 .skill-bar .bar .javascript{
-    width: 80%;
+    width: 90%;
     animation: javascript 4s ;
 }
 @keyframes javascript{
@@ -575,11 +575,11 @@ section{
         width: 0%;
     }
     100%{
-        width: 80%;
+        width: 90%;
     }
 }
 .skill-bar .bar .bootstrap{
-    width: 75%;
+    width: 85%;
     animation: bootstrap 5s ;
 
 }
@@ -588,11 +588,11 @@ section{
         width: 0%;
     }
     100%{
-        width: 75%;
+        width: 85%;
     }
 }
 .skill-bar .bar .react{
-    width: 70%;
+    width: 85%;
     animation: react 6s ;
 
 }
@@ -601,12 +601,12 @@ section{
         width: 0%;
     }
     100%{
-        width: 70%;
+        width: 85%;
     }
 }
 
 .skill-bar .bar .mongodb{
-    width: 80%;
+    width: 85%;
     animation: mongodb 7s ;
 
 }
@@ -615,15 +615,29 @@ section{
         width: 0%;
     }
     100%{
-        width: 80%;
+        width: 85%;
     }
 }
 .skill-bar .bar .FireBase{
-    width: 70%;
+    width: 79%;
     animation: FireBase 8s ;
 
 }
 @keyframes FireBase{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 79%;
+    }
+}
+
+
+.skill-bar .bar .sql{
+    width: 70%;
+    animation: sql 9s ;
+}
+@keyframes sql{
     0%{
         width: 0%;
     }
@@ -633,43 +647,29 @@ section{
 }
 
 
-.skill-bar .bar .sql{
-    width: 60%;
-    animation: sql 9s ;
-}
-@keyframes sql{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 60%;
-    }
-}
-
-
-.skill-bar .bar .php{
-    width: 50%;
+.skill-bar .bar .node{
+    width: 90%;
     animation: php 10s ;
 }
-@keyframes php{
+@keyframes node{
     0%{
         width: 0%;
     }
     100%{
-        width: 50%;
+        width: 90%;
     }
 }
 
-.skill-bar .bar .mysql{
-    width: 50%;
+.skill-bar .bar .express{
+    width: 70%;
     animation: mysql 11s ;
 }
-@keyframes mysql{
+@keyframes express{
     0%{
         width: 0%;
     }
     100%{
-        width: 50%;
+        width: 70%;
     }
 }
 
